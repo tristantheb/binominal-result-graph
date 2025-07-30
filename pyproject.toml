@@ -1,0 +1,16 @@
+[project]
+name = "binominal-result-graph"
+version = "1.0.0"
+description = "A Python package for generating binomial distribution graphs."
+license = "Unlicense"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "ipywidgets (>=8.1.7)",
+    "matplotlib (>=3.10.3)",
+    "scipy (>=1.16.1)",
+]
+
+[tool.poetry]
+package-mode = false
