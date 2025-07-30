@@ -48,5 +48,5 @@ This notebook was created to facilitate calculations for item drops in a Minecra
 It uses the mathematical formula for the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution):
 
 ```math
-P(X = k) = C(n, k) * p^k * (1 - p)^(n - k)
+P(X = k) = \binom{n}{k} * p^k * (1 - p)^{(n - k)}
 ```
